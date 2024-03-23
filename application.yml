@@ -19,3 +19,8 @@ eureka:
    client:
     register-with-eureka: true
     fetch-registry: true
+
+jasypt:
+ encryptor:
+   iv-generator-classname: org.jasypt.iv.RandomIvGenerator
+   algorithm: PBEWITHHMACSHA512ANDAES_256
