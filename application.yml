@@ -15,6 +15,12 @@ spring :
         dialect: org.hibernate.dialect.MySQLDialect
         ddl-auto : none
 
+ cloud:
+   config:
+     allowOverride: true
+     overrideNone: true
+     overrideSystemProperties: false
+
 eureka:
    client:
     register-with-eureka: true
